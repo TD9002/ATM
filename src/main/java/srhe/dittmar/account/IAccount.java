@@ -1,10 +1,23 @@
 package srhe.dittmar.account;
 
+import java.util.List;
+
 public interface IAccount {
 
-    public boolean withdraw (int amount);
-    public boolean deposit (int amount);
-    public boolean transfer();
-    public boolean printAccount();
-    public boolean showAccountState();
+     boolean withdraw (int amount);
+     boolean deposit (int amount);
+     boolean transfer();
+     boolean printAccount();
+     boolean addTransaction(Transaction transaction);
+     int getAccountNumber();
+     int getPin();
+     String getCustomerName();
+     boolean isState();
+     int getCounter();
+     void setCounter(int counter);
+     int getAccountValue();
+     List<Transaction> getTransactionList();
+     void setState(boolean state);
+
+
 }
