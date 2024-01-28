@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5d3061-e939-4c66-81ee-1a57d598371b" name="Changes" comment="Erste Fassung, todo transfer und copies ggf.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/startMenu/ExitMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/startMenu/StartMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/DepositUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/TransferUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/WithdrawUI.java" afterDir="false" />
+    <list default="true" id="5a5d3061-e939-4c66-81ee-1a57d598371b" name="Changes" comment="added transfer, added user confirmation for deposits and&#10;withdrawals">
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/pdfPrinter/PdfPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/Validation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/account/IAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/account/IAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/account/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/account/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/datenbank/InMemoryDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/datenbank/InMemoryDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/logic/AccountManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/logic/AccountManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/AccountDetailsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/AccountDetailsUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/DepositUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/ExitMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/LogoutMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/startMenu/LoginMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/TransferUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/WithdrawUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/AccountDetailsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/AccountDetailsUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/TransferUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/TransferUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,22 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gerät/Desktop/ATM/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Gerät/Desktop/ATM/src/main/resources",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gerät\Desktop\ATM\src\main\resources" />
@@ -119,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706224269815</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added transfer, added user confirmation for deposits and&#10;withdrawals">
+      <created>1706438385096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706438385096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +131,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Erste Klassen angelegt, Res hinzugefügt" />
     <MESSAGE value="Erste Fassung, todo transfer und copies ggf." />
-    <option name="LAST_COMMIT_MESSAGE" value="Erste Fassung, todo transfer und copies ggf." />
+    <MESSAGE value="added transfer, added user confirmation for deposits and&#10;withdrawals" />
+    <option name="LAST_COMMIT_MESSAGE" value="added transfer, added user confirmation for deposits and&#10;withdrawals" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ATM$Main.ic" NAME="Main Coverage Results" MODIFIED="1706136853138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

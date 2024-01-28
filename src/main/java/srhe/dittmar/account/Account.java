@@ -64,6 +64,7 @@ public class Account implements IAccount {
     public void setState(boolean state) {
         this.state = state;
     }
+
     @Override
     public int getCounter() {
         return counter;

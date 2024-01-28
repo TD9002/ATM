@@ -54,7 +54,6 @@ public abstract class Menu implements IMenu {
             if (accountManagement.getInMemoryDB().getAccountList().get(i).getAccountNumber() ==
                     account.getAccountNumber()) {
                 setAccount(accountManagement.getInMemoryDB().getAccountList().get(i));
-                System.out.println(account.getAccountValue());
                 return true;
             }
         }

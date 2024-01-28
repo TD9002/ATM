@@ -1,8 +1,10 @@
 package srhe.dittmar.ui.userMenu;
 
 import srhe.dittmar.account.Transaction;
+import srhe.dittmar.pdfPrinter.PdfPrinter;
 import srhe.dittmar.ui.Menu;
 
+import java.io.IOException;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 import java.util.Scanner;
@@ -34,11 +36,18 @@ public class AccountDetailsUI extends Menu {
                     System.out.println("Account balance = " + String.format("%+,.2f€",super.getAccount().getAccountValue()));
                 }
             }
-            System.out.println("Go Back? (yes or no)");
+            System.out.println("Do you want to print the statement of account? (yes or no)");
             if (Objects.equals(scanner.nextLine(), "yes"))
             {
-                break;
+                try {
+                    PdfPrinter.writePdf(super.getAccount());
+                }
+                catch (IOException e){
+                    System.out.println(e.getMessage());
+                }
             }
+            System.out.println("Do you want to go back? (yes or no)");
+            if (Objects.equals(scanner.nextLine(), "yes")) break;
         }
     }
 }
