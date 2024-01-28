@@ -1,14 +1,19 @@
-package srhe.dittmar.ui;
+package srhe.dittmar.ui.startMenu;
 import srhe.dittmar.logic.AccountManagement;
+import srhe.dittmar.ui.IMenu;
+import srhe.dittmar.ui.Menu;
+import srhe.dittmar.ui.userMenu.UserInterface;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class StartMenu {
+public class LoginMenu extends Menu {
     private final String MENU_NAME = "Login";
     private AccountManagement accountManagement;
 
-    public StartMenu(AccountManagement accountManagement) {
+    public LoginMenu(AccountManagement accountManagement) {
         this.accountManagement = accountManagement;
+        super.setName(MENU_NAME);
     }
     public void showDialog() {
         Scanner scanner = new Scanner(System.in);

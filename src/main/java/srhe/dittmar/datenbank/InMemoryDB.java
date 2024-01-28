@@ -13,7 +13,7 @@ public class InMemoryDB {
             accountList.add(new Account(1,"Frank",1111,-660));
             accountList.add(new Account(2,"Till", 2222, 10_000));
             accountList.add(new Account(3,"Tilman",3333,50));
-            accountList.add(new Account(4,"Jana",4444,5000));
+            accountList.add(new Account(4,"Jana",4444,5_000));
             accountList.add(new Account(5,"Jonathan",5555,50_000_000));
 
         }

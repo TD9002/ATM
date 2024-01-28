@@ -9,6 +9,13 @@ public abstract class Menu implements IMenu {
     private Account account;
     private AccountManagement accountManagement;
 
+    public Menu(AccountManagement accountManagement) {
+        this.accountManagement = accountManagement;
+    }
+
+    public Menu() {
+    }
+
     @Override
     public void showDialog() {
 
@@ -40,5 +47,17 @@ public abstract class Menu implements IMenu {
 
     public AccountManagement getAccountManagement() {
         return accountManagement;
+    }
+
+    public boolean updateAccount() {
+        for (int i = 0; i < accountManagement.getInMemoryDB().getAccountList().size(); i++) {
+            if (accountManagement.getInMemoryDB().getAccountList().get(i).getAccountNumber() ==
+                    account.getAccountNumber()) {
+                setAccount(accountManagement.getInMemoryDB().getAccountList().get(i));
+                System.out.println(account.getAccountValue());
+                return true;
+            }
+        }
+        return false;
     }
 }

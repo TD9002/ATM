@@ -7,13 +7,13 @@ public class Account implements IAccount {
     private int accountNumber;
     private String customerName;
     private int pin;
-    private int accountValue;
+    private double accountValue;
     private boolean state;
     private int counter = 0;
     private List<Transaction> transactionList = new ArrayList<>();
 
 
-    public Account(int accountNumber, String customerName, int pin, int accountValue) {
+    public Account(int accountNumber, String customerName, int pin, double accountValue) {
         this.accountNumber = accountNumber;
         this.customerName = customerName;
         this.pin = pin;
@@ -23,13 +23,13 @@ public class Account implements IAccount {
     }
 
     @Override
-    public boolean withdraw(int amount) {
+    public boolean withdraw(double amount) {
         accountValue -= amount;
         return true;
     }
 
     @Override
-    public boolean deposit(int amount) {
+    public boolean deposit(double amount) {
         accountValue += amount;
         return true;
     }
@@ -73,7 +73,7 @@ public class Account implements IAccount {
         this.counter = counter;
     }
     @Override
-    public int getAccountValue() {
+    public double getAccountValue() {
         return accountValue;
     }
 

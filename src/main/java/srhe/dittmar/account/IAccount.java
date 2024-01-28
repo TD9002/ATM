@@ -4,8 +4,8 @@ import java.util.List;
 
 public interface IAccount {
 
-     boolean withdraw (int amount);
-     boolean deposit (int amount);
+     boolean withdraw (double amount);
+     boolean deposit (double amount);
      boolean transfer();
      boolean printAccount();
      boolean addTransaction(Transaction transaction);
@@ -15,7 +15,7 @@ public interface IAccount {
      boolean isState();
      int getCounter();
      void setCounter(int counter);
-     int getAccountValue();
+     double getAccountValue();
      List<Transaction> getTransactionList();
      void setState(boolean state);
 

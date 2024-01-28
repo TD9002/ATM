@@ -1,4 +1,7 @@
-package srhe.dittmar.ui;
+package srhe.dittmar.ui.userMenu;
+import srhe.dittmar.ui.IMenu;
+import srhe.dittmar.ui.Menu;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -13,7 +16,7 @@ public class UserInterface extends Menu {
         menuList.add(new WithdrawUI());
         menuList.add(new TransferUI());
         menuList.add(new AccountDetailsUI());
-        menuList.add(new ExitMenu());
+        menuList.add(new LogoutMenu());
 
     }
     @Override
@@ -22,7 +25,7 @@ public class UserInterface extends Menu {
             Scanner scanner = new Scanner(System.in);
             System.out.println("--------" + MENU_NAME + "--------");
             System.out.println("Hello " + super.getAccount().getCustomerName() + ", your current account balance is " +
-                 String.format("%,d,00€",super.getAccount().getAccountValue()));
+                 String.format("%+,.2f€",super.getAccount().getAccountValue()));
             System.out.println("Choose your action");
             for (int i = 0; i < menuList.size(); i++)
             {

@@ -11,9 +11,9 @@ public class Transaction {
 
     private ZonedDateTime transactionTime;
     private TransactionType transactionType;
-    private int amount;
+    private double amount;
 
-    public Transaction(TransactionType transactionType, int amount) {
+    public Transaction(TransactionType transactionType, double amount) {
         transactionTime = ZonedDateTime.now();
         this.transactionType = transactionType;
         this.amount = amount;
@@ -27,7 +27,7 @@ public class Transaction {
         return transactionType;
     }
 
-    public int getAmount() {
+    public double getAmount() {
         return amount;
     }
     @Override
