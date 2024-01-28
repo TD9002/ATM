@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5d3061-e939-4c66-81ee-1a57d598371b" name="Changes" comment="added transfer, added user confirmation for deposits and&#10;withdrawals">
-      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/pdfPrinter/PdfPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/datenbank/InMemoryDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/datenbank/InMemoryDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/AccountDetailsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/AccountDetailsUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/TransferUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/ui/userMenu/TransferUI.java" afterDir="false" />
-    </list>
+    <list default="true" id="5a5d3061-e939-4c66-81ee-1a57d598371b" name="Changes" comment="added basic pdf printer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706438385096</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added basic pdf printer">
+      <created>1706457341891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706457341891</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +130,8 @@
     <MESSAGE value="Erste Klassen angelegt, Res hinzugefügt" />
     <MESSAGE value="Erste Fassung, todo transfer und copies ggf." />
     <MESSAGE value="added transfer, added user confirmation for deposits and&#10;withdrawals" />
-    <option name="LAST_COMMIT_MESSAGE" value="added transfer, added user confirmation for deposits and&#10;withdrawals" />
+    <MESSAGE value="added basic pdf printer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added basic pdf printer" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ATM$Main.ic" NAME="Main Coverage Results" MODIFIED="1706136853138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
