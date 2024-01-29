@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5d3061-e939-4c66-81ee-1a57d598371b" name="Changes" comment="added basic pdf printer" />
+    <list default="true" id="5a5d3061-e939-4c66-81ee-1a57d598371b" name="Changes" comment="added basic pdf printer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/gui/HintTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/gui/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/gui/UserMenu/AccountOverviewView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/gui/UserMenu/DepositView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/gui/UserMenu/DetailView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/gui/UserMenu/TransferView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/gui/UserMenu/UserView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/gui/UserMenu/WithdrawalView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/gui/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srhe/dittmar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srhe/dittmar/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706457484576</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added basic pdf printer">
+      <created>1706457665923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706457665923</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
